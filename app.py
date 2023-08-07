@@ -3,7 +3,6 @@
 import numpy as np
 import pandas as pd
 import pickle
-plt.rcParams["figure.figsize"]=(20,10) # setting the default figure size
 
 df=pd.read_csv("Bengaluru_House_Data.csv")
 df.groupby("area_type")["area_type"].count()
