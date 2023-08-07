@@ -2,7 +2,6 @@
 #importing libraries
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 import pickle
 plt.rcParams["figure.figsize"]=(20,10) # setting the default figure size
 
