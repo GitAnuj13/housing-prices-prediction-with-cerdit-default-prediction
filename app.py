@@ -70,9 +70,6 @@ def remove_bhk_outliers(df):
     return df.drop(exclude_indices,axis='index')
 df7 = remove_bhk_outliers(df5)
 # df8 = df7.copy()
-
-plt.hist(df7.price)
-plt.show()
 df7=df7.drop("price_sqft",axis="columns")
 
 dummies=pd.get_dummies(df7["location"],drop_first=True)
